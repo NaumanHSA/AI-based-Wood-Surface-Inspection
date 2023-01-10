@@ -1,0 +1,17 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./
+train: ./dataset/train
+val: ./dataset/val
+
+# Classes
+nc: 8  # number of classes
+names: [
+  "Quartzity",
+  "Live_Knot",
+  "Marrow",
+  "resin",
+  "Dead_Knot",
+  "knot_with_crack",
+  "Knot_missing",
+  "Crack",
+]  # class names
